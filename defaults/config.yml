@@ -1,0 +1,45 @@
+# Convicted's GuardUniform configuration file - by MeneXia
+ArmorEnchants:
+#----------------------------
+#|  List of Armor Enchants  |
+#----------------------------
+# PROJECTILEPROTECTION, FIREPROTECTION, BLASTPROTECTION
+# PROTECTION, FEATHERFALLING, RESPIRATION, AQUAAFFINITY, UNBREAKING
+    Trainee: # uniform.trainee to get this armor set
+        HELM:
+        - PROTECTION 1
+        - FIREPROTECTION 1
+        # The above signifies: Protection I and Fire Protection I
+        CHESTPLATE:
+        - PROTECTION 1
+        LEGGINGS:
+        - PROTECTION 1
+        BOOTS:
+        - PROTECTION 1
+    Guard: # uniform.guard to get this armor set
+        HELM:
+        - PROTECTION 2
+        - FIREPROTECTION 2
+        CHESTPLATE:
+        - PROTECTION 2
+        LEGGINGS:
+        - PROTECTION 2
+        BOOTS:
+        - PROTECTION 2
+    AlphaGuard: # uniform.alphaguard to get this armor set
+        HELM:
+        - PROTECTION 3
+        - FIREPROTECTION 3
+        CHESTPLATE:
+        - PROTECTION 3
+        LEGGINGS:
+        - PROTECTION 3
+        BOOTS:
+        - UNBREAKING 3
+#-----------------
+#| Other Options |
+#-----------------
+recallArmor: false
+# Use this option if you want the plugin to remove set armor
+noBreak: true
+# Use this option if you want chain armor to never break

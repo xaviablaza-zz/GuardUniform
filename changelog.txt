@@ -1,0 +1,37 @@
+GuardUniform 1.73 Documentation
+
+1. Guards will always be wearing chain armor with a certain enchantment
+depending on their rank. This chain armor cannot be taken off, and will not drop on death.
+
+The enchantments of the armor are configurable in config.yml.
+The armor permission nodes are as follows:
+
+uniform.alphaguard
+uniform.guard
+uniform.trainee
+
+2. When a player with any of the above permission nodes joins the game, the plugin will check
+if the player has the armor specified in config.yml.
+
+If the player does not have the armor, then the plugin will try to auto-equip the new armor
+and put the player's currently worn armor into his/her inventory.
+
+If the player's inventory is full, the player will be sent a message telling them to free up
+inventory space and relog to receive their uniform.
+
+3. Players with the permission nodes specified above will also drop a full set of iron armor.
+The durability of each of the armor pieces are calculated like so:
+
+50% chance of the armor being 50% - 100% damaged
+50% chance of the armor being 0 - 50% damaged
+
+4. Players with the permission nodes specified above cannot drop health potions from their inventory
+or drop them on death.
+
+- This applies to both regular instant health (drinkable type) and splash instant health.
+
+They will not be able to drop the potion whether it be by:
+- Using the drop button key
+- Removing it through the use of the inventory interface
+
+5. If ever non-guards receive chain armor, they will not be able to equip it. 
